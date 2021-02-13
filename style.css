@@ -1,0 +1,56 @@
+body {
+     margin: 0;
+     background-color: #4a69bd;
+}
+.container {
+     width: 80%;
+     margin: auto;
+}
+.box {
+     width: 60%;
+     height: auto;
+     margin:  20% auto;
+     color:#fff;
+     text-align: center;
+     line-height: 1.4em;
+}
+.box .input {
+     width: 100%;
+     margin: 8px 0;
+     padding: 5px 2%;
+     font-size: 12px;
+     border-radius:3px;
+     border: none;
+}
+.box input:last-of-type {
+     border: none;
+     border-radius: 3px;
+     margin: 8px 0;
+     padding: 5px 4%;
+     cursor: pointer;
+}
+.success {
+     color: #44bd32;
+}
+.error {
+     color: red !important;
+     margin: 0;
+}
+
+.all {
+     width: 100%;
+     min-height: 200px;
+     background-color: #ddd;
+}
+.all p {
+     color: red;
+     margin: 0;
+     text-align: left;
+}
+.all p span {
+     color: teal;
+}
+.message {
+     display: inline-block;
+     width: 70% !important;
+}
